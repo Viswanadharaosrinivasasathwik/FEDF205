@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript variable demo </title>
+</head>
+<body>
+    <script>
+        var x=100;
+        document.write(x,"<br>");
+        var x =200;
+        document.write(x+x,"<br>");
+        let y = 300;
+        document.write(y,"<br>");
+        let yr=500;
+        document.write(yr,"<br>");
+        
+        var z=30; // global decleration
+        document.write(z,"<br>");
+        {
+            let z=40; // lacal decleration
+            document.write(z,"<br>");
+        }
+
+        document.write(z,"<br>");
+
+
+         const i=25;
+         document.write(i,"<br>");
+         
+         {
+            const i =45;
+            document.write(i,"<br>");
+         } 
+
+         let a=10;
+         let b=0.2;
+         let c=true;
+         d="Sathwik";
+         e=null;
+         document.write(typeof(a),"<br>");
+         document.write(typeof(b),"<br>");
+         document.write(typeof(c),"<br>");
+         document.write(typeof(d),"<br>");
+         document.write(typeof(e),"<br>");
+
+         var m=50;
+        document.writeln(m,"<br>");
+        m+=10;
+        document.write(m,"<br>");
+
+        n=5;
+        n++;
+        document.write(n,"<br>");
+
+        function kl_fun(){
+           document.writeln("this call id from kl_fun()");
+
+        }
+          
+           document.write(kl_fun());
+          
+        document.write(typeof 100,"<br>");
+        document.write(typeof 12.567,"<br>");
+        document.write(typeof "sathwik","<br>");
+        document.write(typeof {},"<br>");
+        document.write(typeof {},"<br>");
+        document.write(typeof kl_fun(),"<br>");
+        document.write(typeof false,"<br>");
+        document.write(typeof 100n,"<br>");
+
+
+
+
+
+</script>
+</body>
+</html>
